@@ -1,0 +1,80 @@
+
+/* *{margin: 0px; padding: 0px;} */
+body{font-size: 14px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+#root{height: 100%;}
+
+p{font-size: 14px;}
+h1{font-size: 36px;}
+h2{font-size: 28px;}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+h5{font-size: 16px;}
+h6{font-size: 14px;}
+a{color: #000; text-decoration: none;}
+a:hover{color:#0088FF !important; text-decoration: none;}
+
+
+.carousel-inner>.carousel-item  {
+    -webkit-transition: -webkit-transform 0.1s ease-in-out !important;
+    -o-transition: -o-transform 0.1s ease-in-out !important;
+    transition: transform 0.1s ease-in-out !important;
+}
+
+/********** General **********/
+.text_cut{text-decoration: line-through;}
+.br20{border-radius: 20px;}
+.xmar60{margin: 0px 60px;}
+.clear{clear: both;}
+.smallicons{width: 15px;}
+.mediumicons{width: 25px;}
+.largeicons{width: 40px;}
+.fullwidth{width: -webkit-fill-available;}
+
+/********** Colors **********/
+.gradient_bg{ background-image: linear-gradient(to right, #F8EFFF, #E6F4FF, #FFF7EF); }
+.blue{color: #0088FF;}
+.blue_bg{color: #0088FF; color:#fff;}
+.orange{color:#FF4F04;}
+.orange_bg{color:#FF4F04; color: #fff;}
+.green{color:#0AD00A;}
+.green_bg{color:#0AD00A; color:#000;}
+
+/********** Alignment **********/
+.balign{display: flex; align-items: center; justify-content: center; text-align: center;}
+.valign{display: flex; align-items: center;}
+.halign{display: flex; justify-content: center; text-align: center;}
+.evenalign{display: flex; justify-content:space-evenly; align-items: center;}
+.btwalign{display: flex; justify-content:space-between; align-items: center; text-align: center;}
+
+/********** Buttons **********/
+.btn{border-radius: 10px;}
+
+/********** header **********/
+header .top_header, .bottom_header{padding: 0px 40px;}
+header .top_header {height: 70px; border-bottom: 1px solid #ccc; background-color: #fff;}
+.logo img{width: 70px; padding: 10px;}
+.mynav > div > ul > li{padding-right: 40px;}
+.mynav ul li a{color: #000;}
+.mynav .dropdown:hover .dropdown-menu {display: block;}
+
+/********** footer **********/
+footer ul{padding: 0px;}
+footer ul li{list-style: none;}
+
+/********** components **********/
+section{padding: 40px;}
+.mycard{border:1px solid #ccc; border-radius: 20px;}
+.mycard-body{padding: 10px; border-radius: 20px;}
+.banner{position: relative; }
+.banner img{border-radius: 20px;}
+.overlay{ background-color: #000; opacity: 0.5; position: absolute; top: 0; bottom: 0; left: 0; right: 0; overflow: hidden;}
+.overlay div{z-index: 2; color: #fff; opacity: 1;}
+
+/********** homepage **********/
+.product_category div, .age_category div{text-align: center; }
+
+.product_category img, .age_category img{width: 100%; margin-bottom: 15px; padding: 0px 30px;}
+.popular img{width: 100%; margin-bottom: 10px;}
+
+
+
